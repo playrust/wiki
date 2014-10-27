@@ -10,7 +10,7 @@ This is a big list of decisions we've made about the server. They're all subject
   We need to chat to /u/iTruthful's friend about all of this. I think we should get the server online as soon as possible but with a generic name ('Rust Server', or whatever) so we can log in and start tinkering with it.
 
 ## 2. Server Discussion:
-* **A new subreddit (/r/playrustpublic, or something)**
+* **A new subreddit (/r/playrustpublic, or something (Derpy) I had /r/playrustserver in mind but I fear that it's confusing since we already have a sister sub with a very similar name.)**
 
   No decisions made about the name yet (let's discuss that). The server will have its own dedicated subreddit, this is to reduce the noise that would be generated from the server on /r/playrust which could potentially alienate people who are only visiting for discussion about the game. [2][2]
 
@@ -38,7 +38,7 @@ This is a big list of decisions we've made about the server. They're all subject
   
 * **Useful Plugins**
 
-  Some things I think *would* be useful (some essential) would be: anti-cheat, chat logging, simple profanity filter (fuck, shit, etc are fine. I think we should filter out racist remarks though--thoughts?), global banning, RCON control[5][5], some kind of internal admin discussion so we could log important info (ex "!log kicked user <username> for abuse" would then be added to a log somewhere) and also that oft-talked about "!report" function.
+  Some things I think *would* be useful (some essential) would be: anti-cheat, chat logging, simple profanity filter (fuck, shit, etc are fine. I think we should filter out racist remarks though--thoughts? (Derpy) I think racism & homophobia will be good to filter out, yes)), global banning, RCON control[5][5], some kind of internal admin discussion so we could log important info (ex "!log kicked user <username> for abuse" would then be added to a log somewhere) and also that oft-talked about "!report" function.
   
   Some of these plugins I think we would need to have written for us. Are they scripted in Lua or C++? Could /u/iTruthful's friend help us out here? If not, could someone else?
   
@@ -46,9 +46,11 @@ This is a big list of decisions we've made about the server. They're all subject
 
   I don't think we need that many rules, but the ones we do have should be really obviously broken. So:
   
-  1. No Hacking
-  2. No Spamming
-  3. No Flaming
+  1. No cheating
+  2. No verbal abuse/spamming
+  3. English in the chat 
+  
+  (Derpy) It would be cool if we could have those rules pop up clientside when someone joins our server. Like a message of the day. 
  
   The grey-areas here are things like 'no exploiting' as it's going to be really difficult to spot/prove and will probably just result in a lot of finger pointing.
 
